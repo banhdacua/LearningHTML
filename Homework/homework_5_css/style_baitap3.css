@@ -1,0 +1,23 @@
+#full {
+    background: rgb(10,31,36);
+    background: linear-gradient(
+        to bottom,
+        #948d8d 0%,
+        #948d8d 10%,
+        #0a1f24 10%,
+        #0a1f24 100%);
+        width: 100%;
+        height: 600px;
+}
+.content {
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    margin: -4px;
+}
+#div_left {
+    background-color: rebeccapurple;
+}
+#div_right {
+    background-color: green;
+}
