@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(233, 172, 6);
+    padding-top: 10%;
+}
+#heading {
+    background-color: black;
+    color: white;
+}
+td {
+    color: black;
+}
+.mid_row {
+    background-color: yellow;
+}
+table{
+    width: 80%;
+    margin: 0px auto;
+}
+table, td, th, tr {
+    border: none;
+    text-align: center;
+    
+}
+table {
+    border-collapse:collapse;
+}
+th {
+    padding: 5px 20px;
+}
+td {
+    padding: 10px 20px;
+}
