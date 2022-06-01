@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(236, 233, 233);
+    
+}
+#div_left {
+    width: 49%;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+}
+#img_kitchen{
+    width: 100%;
+}
+#content_left {
+    font-family: 'Open Sans', sans-serif;;
+    width: 50%;
+    left: 50%;
+    position: absolute;
+    color: gray;
+}
+a:link, a:visited {
+    color: gray;
+}
+#button {
+    padding: 10px 5px;
+    background-color: rgb(11, 68, 173);
+    color: white;
+}
+
+
+#div_right {
+    background: linear-gradient(
+        to bottom,
+        rgb(236, 233, 233) 0%,
+        rgb(236, 233, 233) 35%,
+        rgb(16, 47, 105) 35%,
+        rgb(16, 47, 105) 75%,
+        rgb(236, 233, 233) 75%,
+        rgb(236, 233, 233) 100%);
+    width: 49%;
+    height: 500px;
+    display: inline-block;
+    margin-left: 1%;
+    position: relative;
+}
+#img_tree {
+    width: 30%;
+    position: absolute;
+    bottom: 50%;
+    left: 3%;
+    height: 40%;
+}
+#img_sofa {
+    width: 25%;
+    position: absolute;
+    bottom: 50%;
+    left: 35%;
+}
+#img_chair {
+    width: 40%;
+    height: 35%;
+    position: absolute;
+    top: 55%;
+    left: 3%;
+}
