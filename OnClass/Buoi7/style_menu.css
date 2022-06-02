@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-family: monospace;
+    user-select: none;
+}
+div {
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+#menu {
+    width: fit-content;
+    margin: 0px auto;
+}
+.item:hover {
+    background-color: white;
+    color: blue;
+}
