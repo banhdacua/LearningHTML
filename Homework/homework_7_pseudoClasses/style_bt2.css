@@ -1,0 +1,72 @@
+body {
+    background-color: #1A1D22;
+    color: #FEFEFC;
+}
+
+.item_menu {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-size: 30px;
+    width: 25%;
+    margin: -4px;
+    text-align: center;
+}
+#menu {
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+}
+#title {
+    width: fit-content;
+    margin: 0px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    padding: 50px 0px;
+}
+
+#Img_list {
+    width: 80%;
+    margin: 0px auto;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.item_listImg {
+    
+    display: inline-block;
+    width: 25%;
+    margin: -4px;
+    height: 300px;
+    
+}
+img {
+    width: 100%;
+}
+
+.boxChild {
+    width: 90%;
+    height: 100%;
+    background-color: black; /* fallback color */
+    background-position: center;
+    background-size: cover;
+    margin: 0px auto;
+    transition: all .5s;
+}
+#box1 {
+    background-image: url("./assets/Img/1.jpg");
+}
+#box2 {
+    background-image: url("./assets/Img/2.jpg");
+}
+#box3 {
+    background-image: url("./assets/Img/3.jpg");
+}
+#box4 {
+    background-image: url("./assets/Img/4.jpg");
+}
+.item_listImg:hover .boxChild,
+.item_listImg:focus .boxChild {
+  transform: scale(1.2);
+}
