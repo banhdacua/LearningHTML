@@ -48,7 +48,7 @@ img {
 .boxChild {
     width: 90%;
     height: 100%;
-    background-color: black; /* fallback color */
+    background-color: black;
     background-position: center;
     background-size: cover;
     margin: 0px auto;
