@@ -1,11 +1,13 @@
 body {
     background-color: #1A1D22;
     color: #FEFEFC;
+        font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Oswald', sans-serif;
 }
 
 .item_menu {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
+    
     display: inline-block;
     font-size: 30px;
     width: 25%;
@@ -20,8 +22,7 @@ body {
 #title {
     width: fit-content;
     margin: 0px auto;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
+    
     font-size: 15px;
     padding: 50px 0px;
 }
@@ -39,6 +40,7 @@ body {
     width: 25%;
     margin: -4px;
     height: 300px;
+    position: relative;
     
 }
 img {
@@ -69,4 +71,43 @@ img {
 .item_listImg:hover .boxChild,
 .item_listImg:focus .boxChild {
   transform: scale(1.2);
+}
+.boxChild::before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 86, 97, 0.75);
+  }
+  
+  .item_listImg:hover .boxChild:before,
+  .item_listImg:focus .boxChild:before {
+    display: block;
+  }
+  span {
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    display: none;
+    text-align: center;
+  }
+.item_listImg:hover span,
+.item_listImg:focus span {
+    width: 100%;
+    padding-top: 50%;
+    display: block;
+    margin: auto auto;
+    transform: all 1s ease-in-out;
+  
+}
+.content_menu {
+    width: fit-content;
+    margin: 0px auto;
+    
+}
+.item_menu:hover .content_menu{
+    border-bottom: 2px solid #6DCBF1;
 }
