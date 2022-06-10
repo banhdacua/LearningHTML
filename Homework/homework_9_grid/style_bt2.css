@@ -93,7 +93,7 @@ img {
     background-color:rgba(55, 117, 117, 0.55);
     opacity: 1;
 }
-.item3:hover~.overlay{
+.item3:hover~d.overlay{
     top: 0.85%;
     left: calc(6.7% + 60% + 1%);
     background-color:rgba(113, 119, 54, 0.55);
