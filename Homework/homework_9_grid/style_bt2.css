@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: whitesmoke;
     margin: 0 auto;
     width: 90%;
     display: grid;
@@ -17,6 +17,8 @@ body {
     height: fit-content;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    text-justify: auto;
 }
 img {
     width: 100%;
@@ -34,48 +36,96 @@ img {
     width: 31.3%;
     height: 170px;
     background-color: white;
-    top: 70%;
-    left: 70%;
-    transition: all 0.5s;
+    top: 67%;
+    left: 67%;
+    
     pointer-events: none;
+    text-align: center;
+    padding: 60px;
+    box-sizing: border-box;
+    opacity: 0;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.103);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 1s;
 }
 .item1:hover~.overlay{
-    top: 1%;
+    top: 0.85%;
     left: 1%;
-    background-color:rgba(0, 255, 255, 0.486);
+    background-color:rgba(117, 49, 117, 0.55);
+    opacity: 1;
+}
+.item1:hover~.overlay::after {
+    content: "Picture 1";
+    color: white;
+}
+.item2:hover~.overlay::after {
+    content: "Picture 2";
+    color: white;
+}
+.item3:hover~.overlay::after {
+    content: "Picture 3";
+    color: white;
+}
+.item4:hover~.overlay::after {
+    content: "Picture 4";
+    color: white;
+}
+.item5:hover~.overlay::after {
+    content: "Picture 5";
+    color: white;
+}
+.item6:hover~.overlay::after {
+    content: "Picture 6";
+    color: white;
+}
+.item7:hover~.overlay::after {
+    content: "Picture 7";
+    color: white;
+}
+.item8:hover~.overlay::after {
+    content: "Picture 8";
+    color: white;
 }
 .item2:hover~.overlay{
-    top: 1%;
+    top: 0.85%;
     left: calc(3.4% + 30% + 1%);
-    background-color:rgba(0, 255, 255);
+    background-color:rgba(55, 117, 117, 0.55);
+    opacity: 1;
 }
 .item3:hover~.overlay{
-    top: 1%;
+    top: 0.85%;
     left: calc(6.7% + 60% + 1%);
-    background-color:rgba(0, 255, 255);
+    background-color:rgba(113, 119, 54, 0.55);
+    opacity: 1;
 }
 .item4:hover~.overlay{
     top: calc(33.3% + 1%);
     left: 1%;
-    background-color:rgba(0, 255, 255);
+    background-color:rgba(124, 89, 72, 0.55);
+    opacity: 1;
 }
 .item5:hover~.overlay{
     top: calc(33.3% + 1%);
     left: calc(3.4% + 30% + 1%);
-    background-color:rgba(0, 255, 255);
+    background-color:rgba(28, 102, 34, 0.55);
+    opacity: 1;
 }
 .item6:hover~.overlay{
     top: calc(33.3% + 1%);
     left: calc(6.7% + 60% + 1%);
-    background-color:rgba(0, 255, 255);
+    background-color:rgba(124, 54, 81, 0.55);
+    opacity: 1;
 }
 .item7:hover~.overlay{
     top: calc(33.3% + 33.3% + 1%);
     left: 1%;
-    background-color:rgba(0, 255, 255);
+    background-color:rgba(179, 130, 24, 0.55);
+    opacity: 1;
 }
 .item8:hover~.overlay{
     top: calc(33.3% + 33.3% + 1%);
     left: calc(3.4% + 30% + 1%);
-    background-color:rgba(0, 255, 255);
+    background-color:rgba(117, 69, 57, 0.55);
+    opacity: 1;
 }
