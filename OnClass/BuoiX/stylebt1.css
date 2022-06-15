@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: row;
-    width: 80vw;
+    width: 90vw;
     height: 40vh;
     margin: auto;
 }
@@ -14,5 +14,5 @@ img {
     height: 100%;
 }
 .item:hover {
-    width: 40vw;
+    width: 30vw;
 }
