@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-image: uri("../assets/Image/4.jpeg");
+    position: relative;
+}
+.container {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+
+}
+.item {
+    width: 35vw;
+    height: 50vh;
+    background-color: green;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    margin: 25vh auto;
+}
+.title {
+    font-size: large;
+    padding: 0 0 10px 0;
+}
+p {
+    margin: 0;
+}
