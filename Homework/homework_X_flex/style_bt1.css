@@ -1,0 +1,38 @@
+.body_container {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    margin: 0 auto;
+    
+}
+.item {
+    width: 25vw;
+    height: 18vw;
+    border-radius: 10%;
+    margin: 0 1.2vw;
+    
+}
+.item_header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.item_date {
+    color: gray;
+}
+.item_menu {
+    padding: 0 5px;
+}
+.item1 {
+    background-color: #FEE4CB;
+}
+.item2 {
+    background-color: #E9E7FD;
+}
+.item3 {
+    background-color: #DBF6FD;
+}
