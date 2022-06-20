@@ -43,6 +43,7 @@
 }
 .item_content {
     text-align: center;
+    padding: 10px 20px;
 }
 .item_content_body {
     color: gray;
@@ -52,15 +53,87 @@
 }
 .item_content_progress {
     text-align: left;
+    padding: 10px 0px;
+    font-weight: bold;
 }
-.item_content_progressLine {
-    width: 25vw;
-    height: 40px;
-    border-radius: 10%;
-    background-color: linear-gradient(
-        to right,
-        #FE8D22 0%,
+.item_content_progressLine1 {
+    width: calc(25vw - 40px);
+    height: 5px;
+    background: linear-gradient(
+        90deg,
         #FE8D22 60%, 
-        #FFFFFF 60%, 
-        #FFFFFF  100%);
+        #FFFFFF 40%);
+        border-radius: 10px;
+}
+.item_content_progressLine2 {
+    width: calc(25vw - 40px);
+    height: 5px;
+    background: linear-gradient(
+        90deg,
+        #224afe 50%, 
+        #FFFFFF 50%);
+        border-radius: 10px;
+}
+.item_content_progressLine3 {
+    width: calc(25vw - 40px);
+    height: 5px;
+    background: linear-gradient(
+        90deg,
+        #02dd82 80%, 
+        #FFFFFF 20%);
+        border-radius: 10px;
+}
+.item_content_progressNum {
+    padding: 10px 0px 0px 0px;
+    text-align: right;
+    font-weight: bold;
+    
+}
+.item_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+}
+.item_footer_left {
+    width: 100%;
+    height: 20px;
+    
+}
+.item_footer_right {
+    width: 60%;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    font-size: small;
+    border-radius: 10px;
+    padding: 2px 2px;
+    box-sizing: border-box;
+
+    font-weight: bold;
+}
+.item_footer_left_img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.choosen_one {
+    margin-left: -12px;
+}
+.footer1 {
+    color: #FE8D22;
+}
+.footer2 {
+    color: #224afe;
+}
+.footer3 {
+    color: #02dd82;
 }
