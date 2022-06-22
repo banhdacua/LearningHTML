@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 17vh 0;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    height: 65vh;
+    background-color: #EEF3F7;
+    padding: 10vh 0;
+    box-sizing: border-box;
+    
+}
+.item {
+    width: 17vw;
+    height: 23vw;
+    background-color: #DFE8EF;
+    border-radius: 10%;
+    margin: auto;
+    
+}
+.item_up {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.item_up_left {
+    width: 100%;
+    padding-top: 1vw;
+    box-sizing: border-box;
+}
+.item_up_right {
+    width: 40%;
+    
+}
+.button_container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    border-radius: 5%;
+    margin-left: -1vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.item_up_right_button {
+    width: 100%;
+
+    text-align: center;
+    color: #ABB9CA;
+    
+    box-sizing: border-box;
+    margin-left: -5px;
+    border-radius: 50%;
+    
+    
+}
+.button_play {
+    margin-left: -10px;
+    color: white;
+    padding: 0px;
+    
+}
