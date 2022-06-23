@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+.title {
+    width: 20%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+}
+.button_container {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+    gap: 30px
+}
+.button {
+    width: fit-content;
+    border: solid 1px black;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.menu {
+    width: 100%;
+    display: none;
+}
+@media screen and (max-width: 990px) {
+    .container {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .button {
+        width: fit-content;
+    }
+}
