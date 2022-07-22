@@ -25,7 +25,7 @@ function showStudent() {
     var ul = document.getElementById("list_student");
     var li = document.createElement("li");
     student.forEach(
-        function(item) {
+        item => {
             var children = ul.children.length + 1
             li.setAttribute("id", "element"+children);
             li.appendChild(document.createTextNode("Tên: " + item.name +"/ Tuổi: " + item.age + "/ Địa chỉ: " + item.address));

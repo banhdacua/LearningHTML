@@ -1,11 +1,7 @@
 .container {
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
-    width: 100vw;
-=======
     width: 90vw;
->>>>>>> b7e9338a44d3ddb93e2e45dca4e829a1e75dac0c
     height: 40vh;
     margin: auto;
     background-color: gray;
@@ -20,14 +16,5 @@ img {
     object-fit: cover;
 }
 .item:hover {
-<<<<<<< HEAD
-    width: 42vw;
-}
-.ground {
-    width: 100%;
-    background-color: gray;
-
-=======
     width: 30vw;
->>>>>>> b7e9338a44d3ddb93e2e45dca4e829a1e75dac0c
 }
